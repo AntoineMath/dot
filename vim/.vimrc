@@ -6,6 +6,7 @@ set autoindent
 " set smartindent #deprecated https://stackoverflow.com/questions/18415492/autoindent-is-subset-of-smartindent-in-vim
 set showmode
 set tabstop=2
+set shiftwidth=2
 " https://vi.stackexchange.com/questions/10124/what-is-the-difference-between-filetype-plugin-indent-on-and-filetype-indent
 filetype plugin indent on 
 
@@ -28,8 +29,6 @@ let &t_EI = "\<Esc>Ptmux;\<Esc>\e[2 q\<Esc>\\"
 set hlsearch
 set incsearch
 set linebreak
-" noh - no highlight on <esc>
-map <esc> :noh <CR>
 
 " here because plugins and stuff need it
 if has("syntax")
@@ -105,4 +104,3 @@ else
     let &t_SI = "\e[5 q"
     let &t_EI = "\e[2 q"
 endif
-
