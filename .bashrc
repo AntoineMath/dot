@@ -6,8 +6,8 @@ esac
 
 #---------- env variables ----------  
 export GITUSER="$USER"
-export GHREPOS="$HOME/repos/gitub.com/$GITUSER"
-export DOTFILES="$HOME/repos/gitub.com/$GITUSER/dot"
+export GHREPOS="$HOME/repos/github.com/$GITUSER"
+export DOTFILES="$HOME/repos/github.com/$GITUSER/dot"
 
 
 export EDITOR=vim
